@@ -1,6 +1,10 @@
 version: '3.8'
 services:
   api:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NO_CACHE= '--no cache'
     ports:
       - "8080:8080"
