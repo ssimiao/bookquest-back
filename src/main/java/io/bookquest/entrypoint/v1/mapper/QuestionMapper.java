@@ -2,8 +2,6 @@ package io.bookquest.entrypoint.v1.mapper;
 
 import io.bookquest.entrypoint.v1.dto.BookQuizEntrypoint;
 import io.bookquest.entrypoint.v1.integration.database.dto.*;
-import io.bookquest.persistence.entity.Book;
-import io.bookquest.persistence.entity.BookQuestions;
 
 import java.util.ArrayList;
 import java.util.List;
